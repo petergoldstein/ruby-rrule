@@ -2,6 +2,7 @@ AllCops:
   TargetRubyVersion: 2.6
   Exclude:
     - 'gemfiles/**/*'
+    - 'vendor/**/*'
     - Appraisals
 
 Layout:

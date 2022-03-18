@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require 'rrule'
-require 'pry'
+require 'timeout'
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|
